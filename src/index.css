@@ -1,0 +1,603 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(to right, rgba(22, 20, 20, 0.808), aqua);
+  overflow-x: hidden !important;
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden !important;
+}
+
+.arrow-- {}
+
+/*
+.nav{
+  width:100%;
+  height:50px;
+  background-color:aqua;
+  justify-content:center;
+  place-items:center;
+}
+
+.nav > ul{
+  text-decoration: none;
+  list-style-type:none;
+  display:flex;
+  line-height:50px;
+}
+
+.nav > ul > li{
+  padding:0 30px;
+  margin-left:30px;
+  font-style: italic;
+  font-size:18px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.nav2{
+  width:100%;
+  height:50px;
+  background-color:aqua;
+  justify-content:center;
+  place-items:center;
+}
+
+.nav2 > ul{
+  text-decoration: none;
+  list-style-type:none;
+  display:flex;
+  line-height:50px;
+}
+
+.nav2 > ul > li{
+  padding:0 30px;
+  margin-left:30px;
+  font-style: italic;
+  font-size:18px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+} */
+
+/* .title {
+  margin-left: 30px;
+  font-size: 30px;
+  font-weight: 500;
+  background: linear-gradient(to bottom right, white 1%, aqua);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+} */
+
+
+
+.li-tag {
+  /* color:aqua; */
+  margin-right: 25px;
+  color: #000;
+}
+
+.li-tag:hover {
+  color: aqua;
+}
+
+.bg-body-success {
+  background: rgba(22, 20, 20, 0.808) !important;
+}
+
+/* #home{
+  border:2px solid aqua;
+} */
+
+/* .p-5{
+  background:linear-gradient(to right,rgba(22, 20, 20, 0.808) ,aqua);
+  border:none;
+} */
+
+.py-5 {
+  /* border:1px solid black; */
+}
+
+.nav {
+  background: transparent;
+  position: relative;
+  top: 0;
+  z-index: 10;
+}
+
+.text-left {
+  text-align: left;
+  color: black;
+}
+
+/* .gradient-text {
+  background: linear-gradient(to bottom right, white 1%, aqua);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+} */
+
+#img {
+  width: 70px;
+  height: 70px;
+  /* box-sizing:border-box;
+  margin:0;
+  padding:0;
+  border:2px solid black; */
+}
+
+/* .butt-- {
+  border:2px solid black;
+  display: flex;
+}
+
+.first-butt-- {
+  background: rgb(15, 112, 112);
+  color: white;
+  width: 130px;
+  height: 34px;
+  padding: 3px;
+  text-align: center;
+} */
+
+
+/* #img-2{
+  width:100%;
+  height:600px;
+} */
+
+.title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #fff;
+}
+
+.title-- {
+  font-size: 1.9rem;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.title--2 {
+  font-size: 1.9rem;
+  font-weight: normal;
+  line-height: 1.2;
+  color: #fff;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #00ffff, #0099cc);
+  /* Aqua gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-text-- {
+  background: linear-gradient(90deg, #00ffff, #0099cc);
+  /* Aqua gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.2rem;
+}
+
+.gradient-text--2 {
+  background: linear-gradient(90deg, rgb(138, 12, 138), #0099cc);
+  /* Aqua gradient */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* font-size:2.2rem; */
+}
+
+.col-close-- {
+  /* border:2px solid blue; */
+  text-align: center;
+}
+
+.description {
+  font-size: 1.1rem;
+  color: #fff;
+  margin-bottom: 1.5rem;
+}
+
+.description-- {
+  font-size: 1rem;
+  color: #fff;
+  margin-top: 1rem;
+  margin-bottom: 1.0rem;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* Button Group Styling */
+/* .button-group .first-butt--, .sec-butt-- {
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+} */
+
+.first-butt-- {
+  background-color: #0099cc;
+  /* background-color:aqua; */
+  padding: 5px;
+  transition: all ease 0.2s;
+  color: #fff;
+  border: none;
+  width: 140px;
+  text-align: center;
+}
+
+.sec-butt-- {
+  /* background-color: #f0f0f0;
+  color: #0099cc;
+  border: 1px solid #0099cc; */
+  border: 2px solid transparent;
+  background: linear-gradient(aqua, rgb(24, 73, 73)) padding-box,
+    linear-gradient(45deg, black, aqua) border-box;
+  /* Gradient on the border */
+  padding: 3px;
+  transition: all ease 0.2s;
+  color: white;
+  text-align: center;
+  margin-left: 5px;
+  width: 110px;
+
+}
+
+.first-butt--:hover {
+  transform: scale3d(0.8, 0.8, 1);
+  filter: drop-shadow(0 0 2em aqua);
+}
+
+.sec-butt--:hover {
+  transform: scale3d(0.8, 0.8, 1);
+  filter: drop-shadow(0 0 2em aqua);
+}
+
+.image-container {
+  /* max-width: 100%; */
+  margin-top: 20px;
+}
+
+#img-2 {
+  width: 100%;
+  max-width: 400px;
+  /* Adjust as necessary */
+  height: auto;
+}
+
+#img-2-- {
+  width: 100%;
+  max-width: 400px;
+  /* Adjust as necessary */
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#img-3-- {
+  width: 100%;
+  max-width: 400px;
+  /* Adjust as necessary */
+  height: 200px;
+  display: block;
+  /* margin-left:auto;
+  margin-right:auto; */
+}
+
+.explore-btn {
+  background: linear-gradient(to right, rgba(22, 20, 20, 0.808), aqua);
+  filter: drop-shadow(0 0 2em black);
+  width: 120px;
+  height: 40px;
+  padding: 6px;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  /* box-shadow: 0px 0px 80px 40px rgba(255, 99, 71, 0.7), 0px 0px 120px 60px rgba(106, 90, 205, 0.5); */
+}
+
+.explore-btn:hover {
+  /* transform:scale3d(1.5,2,1);*/
+  transition: all 0.3s ease-in-out;
+  transform: scale3d(0.8, 0.8, 1);
+  /* transform:scale3d(1.2,1.1,1); */
+}
+
+.explore-bt {
+  /* background: linear-gradient(to right, rgba(22, 20, 20, 0.808), aqua); */
+  background: #0099cc;
+  filter: drop-shadow(0 0 2em black);
+  width: 120px;
+  height: 40px;
+  padding: 7px;
+  text-align: center;
+  display: block;
+}
+
+.explore-bt:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale3d(0.8, 0.8, 1);
+}
+
+/* .icon {
+  background: aqua;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  padding:2px;
+  visibility:hidden;
+} */
+
+.icon {
+  position: fixed;
+  display: inline-block;
+  cursor: pointer;
+  background: aqua;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  padding: 2px;
+  visibility: hidden;
+  opacity: 0;
+  display: none;
+  z-index: -100;
+}
+
+.icon::after {
+  content: 'Explore Now!';
+  position: absolute;
+  top: 120%;
+  left: 180%;
+  transform: translateX(-50%);
+  background: linear-gradient(to right, rgba(22, 20, 20, 0.808), aqua);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.icon:hover {
+  transition: all 0.3s ease-in-out;
+  transform: scale3d(0.8, 0.8, 1);
+}
+
+.icon:hover::after {
+  opacity: 1;
+}
+
+.first-glow-- {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  border-radius: 4px;
+  align-items: center;
+  margin: 30px auto;
+  /* Center the card */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  opacity: 100%;
+  z-index: 10;
+  backdrop-filter: blur(1px);
+  padding: 36px;
+  cursor: pointer;
+}
+
+.first-glow--:hover {
+  transform: scale3d(0.8, 0.8, 1);
+}
+
+.sec-glow-- {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  border-radius: 4px;
+  align-items: center;
+  margin: 30px auto;
+  /* Center the card */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  opacity: 100%;
+  z-index: 10;
+  backdrop-filter: blur(1px);
+  padding: 36px;
+  cursor: pointer;
+}
+
+.sec-glow--:hover {
+  transform: scale3d(0.8, 0.8, 1);
+}
+
+.third-glow-- {
+  position: relative;
+  width: 300px;
+  height: 250px;
+  border-radius: 4px;
+  align-items: center;
+  margin: 30px auto;
+  /* Center the card */
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+  opacity: 100%;
+  z-index: 10;
+  backdrop-filter: blur(1px);
+  /* background: rgba(255, 255, 255, 0.1); Semi-transparent background */
+  padding: 36px;
+  cursor: pointer;
+}
+
+.third-glow--:hover {
+  transform: scale3d(0.8, 0.8, 1);
+}
+
+.crypto-logo {
+  background-color: #fbbc04;
+  /* Yellow background */
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* Circle */
+  transform: translateX(-50%);
+  box-shadow: 0 20px 38px rgba(255, 204, 0, 0.6);
+  position: fixed;
+  padding: 8px;
+  top: -14%;
+  left: 50%;
+  z-index: 5;
+}
+
+.bit {
+  transform: rotate(15deg);
+  width: 50px;
+  height: 50px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+.cryp-logo-- {
+  background: #000 !important;
+  /* Yellow background #0099cc */
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* Circle */
+  transform: translateX(-50%);
+  box-shadow: 0 20px 38px #000;
+  position: fixed;
+  padding: 8px;
+  top: -14%;
+  left: 50%;
+  z-index: 5;
+}
+
+.bit-1 {
+  width: 50px;
+  height: 50px;
+  margin-left: 1px;
+  margin-top: 2px;
+}
+
+.crypto-logo-2 {
+  background: rgba(243, 9, 9, 0.911);
+  /* Yellow background */
+  width: 70px;
+  height: 70px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  /* Circle */
+  transform: translateX(-50%);
+  box-shadow: 0 20px 38px rgba(221, 27, 27, 0.911);
+  position: fixed;
+  padding: 8px;
+  top: -14%;
+  left: 50%;
+  z-index: 5;
+}
+
+.bit-2 {
+  width: 50px;
+  height: 50px;
+  margin-left: 2px;
+  margin-top: 2px;
+}
+
+
+
+@media (max-width:460px) {
+  .explore-btn {
+    display: none;
+    visibility: hidden;
+  }
+
+  .first-col {
+    margin-top: -10px;
+  }
+
+  .li-tag {
+    text-align: center;
+  }
+
+  .icon {
+    position: absolute;
+    visibility: visible;
+    opacity: 1;
+    display: block;
+    top: 4.5%;
+    left: 70%;
+    z-index: 100;
+    cursor: pointer;
+  }
+
+  /* 
+git init
+git add .
+git commit -m "Initial commit"
+git branch -M main
+git remote add origin https://github.com/JephObanla/w3-landing.git
+git push -u origin main
+
+   */
+
+  /* .nav{
+    z-index:1000;
+  } */
+}
+
+.close-- {
+  /* border:2px solid orange; */
+}
+
+.sec-col {
+  /* border:1px solid green; */
+}
+
+/* @media only screen 
+  and (-webkit-min-device-pixel-ratio: 3) 
+  and (max-width: 360px) 
+  and (max-height: 740px) {
+  .icon {
+    visibility: visible;
+    display: block;
+    z-index: 1;
+    position: fixed;
+    top: 2.5%;
+    left:50%;
+  }
+
+  .explore-btn {
+    margin-right: auto;
+    visibility: hidden;
+    display: none;
+  }
+} */
+
+
+/* @media only screen and (max-width:500px) {
+  .li-tag {
+    text-align: center !important;
+  }
+
+  .explore-btn {
+    margin-right: auto;
+    display: none;
+  }
+
+  .icon {
+    visibility: visible;
+    display: block;
+    z-index: 100;
+    position: fixed;
+    top: 2.5%;
+    left: 71.5%;
+  }
+} */
